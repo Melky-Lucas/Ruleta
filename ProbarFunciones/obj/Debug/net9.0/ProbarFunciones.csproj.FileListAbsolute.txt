@@ -1,0 +1,14 @@
+C:\Users\Usuario\Desktop\Fund. de prog\Ruleta\ProbarFunciones\bin\Debug\net9.0\ProbarFunciones.exe
+C:\Users\Usuario\Desktop\Fund. de prog\Ruleta\ProbarFunciones\bin\Debug\net9.0\ProbarFunciones.deps.json
+C:\Users\Usuario\Desktop\Fund. de prog\Ruleta\ProbarFunciones\bin\Debug\net9.0\ProbarFunciones.runtimeconfig.json
+C:\Users\Usuario\Desktop\Fund. de prog\Ruleta\ProbarFunciones\bin\Debug\net9.0\ProbarFunciones.dll
+C:\Users\Usuario\Desktop\Fund. de prog\Ruleta\ProbarFunciones\bin\Debug\net9.0\ProbarFunciones.pdb
+C:\Users\Usuario\Desktop\Fund. de prog\Ruleta\ProbarFunciones\obj\Debug\net9.0\ProbarFunciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Fund. de prog\Ruleta\ProbarFunciones\obj\Debug\net9.0\ProbarFunciones.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Fund. de prog\Ruleta\ProbarFunciones\obj\Debug\net9.0\ProbarFunciones.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Fund. de prog\Ruleta\ProbarFunciones\obj\Debug\net9.0\ProbarFunciones.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Fund. de prog\Ruleta\ProbarFunciones\obj\Debug\net9.0\ProbarFunciones.dll
+C:\Users\Usuario\Desktop\Fund. de prog\Ruleta\ProbarFunciones\obj\Debug\net9.0\refint\ProbarFunciones.dll
+C:\Users\Usuario\Desktop\Fund. de prog\Ruleta\ProbarFunciones\obj\Debug\net9.0\ProbarFunciones.pdb
+C:\Users\Usuario\Desktop\Fund. de prog\Ruleta\ProbarFunciones\obj\Debug\net9.0\ProbarFunciones.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\Fund. de prog\Ruleta\ProbarFunciones\obj\Debug\net9.0\ref\ProbarFunciones.dll
