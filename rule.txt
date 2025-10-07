@@ -1,0 +1,57 @@
+REQUERIMIENTOS COMPETENCIA
+Ruleta de Selección Aleatoria de Estudiantes 🎯
+Objetivo 🚀
+Desarrollar un programa en C# que implemente una ruleta de selección aleatoria de estudiantes. El programa debe seleccionar dos estudiantes al azar de una lista predefinida, asignarles roles específicos y ejecutarse de manera continua hasta que el usuario decida finalizarlo. ¡Vamos a hacerlo interactivo y divertido! 🎉
+
+Requerimientos Funcionales ✅
+1. Selección Aleatoria de Estudiantes 🎲
+El programa debe escoger dos estudiantes de la lista de manera aleatoria.
+Se usará la generación de números aleatorios de C# para asegurar que la selección sea justa y sin sesgos.
+Un estudiante NO puede ser seleccionado para el mismo rol más de una vez en la misma ejecución. Si un estudiante ha sido seleccionado para el rol de "Desarrollador en Vivo", no puede ser seleccionado nuevamente para ese rol durante la misma ejecución. Sin embargo, puede ser seleccionado para el otro rol (Facilitador de Ejercicio) si aún no ha ocupado ese rol en la misma ejecución.
+Cada estudiante solo puede ocupar UN rol por ejecución.
+2. Asignación de Roles 🎭
+🖥 Desarrollador en Vivo: El primer estudiante seleccionado asumirá este rol.
+📖 Facilitador de Ejercicio a Desarrollar: El segundo estudiante seleccionado asumirá este rol.
+El programa debe asegurarse de que un mismo estudiante no ocupe ambos roles al mismo tiempo.
+La información se debe mostrar de forma clara y llamativa en la consola.
+3. Ejecución Continua 🔄
+El programa debe ejecutarse en un bucle hasta que el usuario decida salir.
+La condición de salida se definirá mediante una tecla especial o comando.
+Antes de salir, se mostrará un mensaje de confirmación para evitar cierres accidentales.
+4. Interfaz de Usuario en Consola 🎨
+El programa debe contar con un menú interactivo que permita:
+🎯 Iniciar una nueva selección.
+📋 Ver los últimos seleccionados.
+❌ Finalizar la ejecución.
+La información debe mostrarse en un formato atractivo y fácil de leer.
+Mensajes claros guiarán al usuario durante el proceso.
+5. Manejo de Errores 🚧
+Evitar fallos comunes como:
+❌ Intentar seleccionar estudiantes cuando la lista está vacía.
+❌ Introducir comandos inválidos.
+❌ Errores inesperados durante la ejecución.
+En caso de error, el programa mostrará mensajes amigables en lugar de bloquearse.
+6. Validación de Entrada 📝
+El programa debe validar todas las entradas del usuario:
+Opción de menú: Si el usuario ingresa una opción que no corresponde a un número válido (por ejemplo, "1", "2", "3"), el programa debe mostrar un mensaje de error y pedirle al usuario que ingrese una opción correcta.
+Confirmación de salida: Si el usuario intenta salir sin confirmar correctamente, el programa pedirá una confirmación para evitar cierres accidentales. 
+Selección de estudiante: Si la lista de estudiantes está vacía, el programa debe alertar al usuario y evitar intentar realizar una selección aleatoria.
+🔥 Requerimientos Extra (Obligatorios para viernes y sábado en la mañana)
+🚀 Uso exclusivo de arrays:
+No se permite el uso de listas, ArrayLists u otras estructuras dinámicas.
+Se deben emplear arrays tradicionales para almacenar y manipular los datos de los estudiantes y los roles.
+⚡ Requerimientos Extra (Obligatorios para viernes y sábado en la mañana)
+1. Persistencia de Datos 💾
+Guardar los resultados de las selecciones en un archivo de texto o CSV.
+Permitir que el usuario consulte el historial de selecciones anteriores.--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2. Gestión de Estudiantes y Roles Personalizados ✏️
+Agregar opciones para añadir, eliminar y editar estudiantes.
+Permitir la personalización de los roles asignados.
+3. Interfaz Gráfica de Consola Mejorada 🎨
+Agregar colores y efectos para mejorar la experiencia visual.
+Incluir cuadros de diálogo y menús interactivos.
+Consejos Importantes:
+
+No se limiten: Cumplan con todos los requerimientos, pero piensen más allá. ¡Lo que agreguen extra será muy valorado siempre que aporte al proyecto! No hagan cosas por hacer (una calculadora no tiene sentido aquí). El objetivo es mejorar la funcionalidad y experiencia de usuario.
+Piensen en los errores: Adelántense a los posibles problemas que el programa podría tener. ¿Qué pasa si la lista de estudiantes está vacía? ¿O si el usuario ingresa una opción inválida? ¡Piénsenlo y asegúrense de manejar esos casos!
+¡Este reto tiene muchísimo potencial para que muestren su creatividad y habilidades en programación! 🔥💻 Estoy seguro de que pueden hacer algo increíble.
