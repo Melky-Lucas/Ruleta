@@ -9,11 +9,15 @@ namespace ProbarFunciones
             Random random = new();
 
             string[][] estudiantes = [["Juan", "Perez", "12345678"],
-                                      ["Maria", "Gomez", "87654321"],
-                                      ["Luis", "Martinez", "11223344"]];
+                          ["Maria", "Gomez", "87654321"],
+                          ["Luis", "Martinez", "11223344"]];
 
             int apuntadorFlecha = 0;
-            int contador = (random.Next(3, 11) * estudiantes.Length) + 2;
+            int contador = (random.Next(3, 11) * estudiantes.Length) + random.Next(1, 3);
+
+            int indexElegido = (contador % estudiantes.Length) - 1;
+            string[] estElegido = estudiantes[indexElegido];
+
             int delay = 300;
 
             while (contador > 0)
@@ -25,7 +29,7 @@ namespace ProbarFunciones
                 {
                     string[] estudiante = estudiantes[i];
 
-                    Console.WriteLine($"DNI: {estudiante[2]} {(apuntadorFlecha == i ? flecha : " ")}");
+                    Console.WriteLine($"-{estudiante[0]} {(apuntadorFlecha == i ? flecha : "")}");
                     Console.WriteLine();
                 }
 
@@ -37,6 +41,10 @@ namespace ProbarFunciones
                 if (contador < 9)
                     delay += 50;
             }
+
+            Console.WriteLine($"{estElegido[0]} {estElegido[1]} ha sido elegido");
+
+
         }
     }
 }
