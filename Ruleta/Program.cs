@@ -2,7 +2,7 @@
 Random random = new();
 
 
-string[] carreras = ["Desarrollo de Software", "Multimedia"];
+string[] carreras = ["Desarrollo de Software", "Multimedia", "Redes y Telecomunicaciones", "Seguridad Informática", "Tecnologías de la Información", "Administración de Empresas", "Mercadotecnia", "Contaduría Pública", "Recursos Humanos", "Logística"];
 string[] roles = ["Desarrollador en Vivo", "Facilitador en vivo"];
 string[][] estudiantes = new string[5][];
 for (int i = 0; i < estudiantes.Length; i++)
