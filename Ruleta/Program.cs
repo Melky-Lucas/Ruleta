@@ -21,7 +21,7 @@ string[][][] historialRuleta = [];
 //Animacion
 void ruletaAnimacion(int indexElegido)
 {
-    string flecha = "<--------";
+    string flecha = "<|--------||";
 
     int apuntadorFlecha = 0;
     int contador = (random.Next(3, 8) * estudiantes.Length) + indexElegido;
